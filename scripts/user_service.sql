@@ -1,0 +1,4 @@
+CREATE DATABASE user_service;
+CREATE USER 'usr_user'@'%' IDENTIFIED BY '260a87a10ddd9dc9e7f04f05d746a532';
+GRANT ALL PRIVILEGES ON user_service.* TO 'usr_user'@'%';
+FLUSH PRIVILEGES;
